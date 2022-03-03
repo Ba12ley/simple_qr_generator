@@ -1,5 +1,7 @@
 from qr_generator import generate_qr_codes
+import pyfiglet
 
+ascii_banner = pyfiglet.figlet_format('Enter your\n Areas')
 
 def get_user_list():
     end_list_entry = False
@@ -21,4 +23,5 @@ def generate_from_area_list(area_list):
 
 
 if __name__ == '__main__':
+    print(ascii_banner)
     generate_from_area_list(get_user_list())
