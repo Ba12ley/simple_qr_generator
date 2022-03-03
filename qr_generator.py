@@ -1,5 +1,7 @@
 import qrcode
 from pathlib import Path
+
+
 def generate_qr_codes(area_name):
     # area_name = input("Area Name: ")
 
