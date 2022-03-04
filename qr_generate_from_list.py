@@ -18,7 +18,7 @@ def get_user_list():
 
 def generate_from_area_list(area_list):
     for area in area_list:
-        for i in range(1, 5):
+        for i in range(1, 6):
             generate_qr_codes(area + str(i))
 
 
